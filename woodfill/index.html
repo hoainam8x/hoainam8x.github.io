@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duna's Wood Fill — Zen Wood Block Puzzle</title>
+    <meta name="description" content="Duna's Wood Fill — a relaxing zen wood block puzzle game with fairytale backgrounds. Free on iOS and Mac.">
+    <meta property="og:title" content="Duna's Wood Fill">
+    <meta property="og:description" content="A relaxing zen wood block puzzle game with fairytale storybook backgrounds.">
+    <meta property="og:type" content="website">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #1a1209;
+            color: #f5efe6;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 60px 24px 40px;
+            background: linear-gradient(180deg, #2a1c0e 0%, #1a1209 100%);
+        }
+        .hero-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 26px;
+            margin: 0 auto 20px;
+            background: linear-gradient(180deg, #6b4520, #3d2510);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 56px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .hero h1 {
+            font-size: 36px;
+            color: #ffd966;
+            margin-bottom: 8px;
+        }
+        .hero .tagline {
+            font-size: 18px;
+            color: #b89a6a;
+            margin-bottom: 28px;
+        }
+        .badge-row {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            display: inline-block;
+            background: #2a1c0e;
+            border: 1px solid #3d2a14;
+            color: #e8c97a;
+            font-size: 13px;
+            padding: 6px 14px;
+            border-radius: 20px;
+        }
+
+        /* Features */
+        .section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        .section h2 {
+            font-size: 24px;
+            color: #ffd966;
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .feature-card {
+            background: #221709;
+            border: 1px solid #3d2a14;
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+        }
+        .feature-card .emoji {
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+        .feature-card h3 {
+            color: #e8c97a;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .feature-card p {
+            color: #b89a6a;
+            font-size: 14px;
+        }
+
+        /* Themes */
+        .themes-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+        }
+        .theme-item {
+            background: #221709;
+            border: 1px solid #3d2a14;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            font-size: 14px;
+            color: #d4c9b8;
+        }
+        .theme-item .emoji { font-size: 28px; display: block; margin-bottom: 6px; }
+
+        /* Download */
+        .download-section {
+            text-align: center;
+            padding: 48px 24px;
+            background: linear-gradient(180deg, #1a1209 0%, #2a1c0e 100%);
+        }
+        .download-section h2 {
+            font-size: 24px;
+            color: #ffd966;
+            margin-bottom: 16px;
+        }
+        .download-section p {
+            color: #b89a6a;
+            margin-bottom: 24px;
+        }
+        .app-store-btn {
+            display: inline-block;
+            background: #ffd966;
+            color: #1a1209;
+            font-weight: 700;
+            font-size: 16px;
+            padding: 14px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .app-store-btn:hover {
+            background: #ffeb99;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid #2a1c0e;
+        }
+        .footer-links {
+            margin-bottom: 16px;
+        }
+        .footer-links a {
+            color: #b89a6a;
+            font-size: 14px;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        .footer-links a:hover { color: #ffd966; }
+        .footer .copyright {
+            color: #6b5a42;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-icon">🪵</div>
+        <h1>Duna's Wood Fill</h1>
+        <p class="tagline">Zen Wood Block Puzzle</p>
+        <div class="badge-row">
+            <span class="badge">🆓 Free to Play</span>
+            <span class="badge">📱 iPhone & iPad</span>
+            <span class="badge">💻 Mac</span>
+            <span class="badge">🔇 Works Offline</span>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="section">
+        <h2>✨ Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="emoji">🧩</div>
+                <h3>Simple & Addictive</h3>
+                <p>Drag wood blocks onto a 10×10 board. Fill rows and columns to clear them. Easy to learn, hard to master.</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🪵</div>
+                <h3>Real Wood Textures</h3>
+                <p>Every cell has unique procedurally-generated wood grain — no two games look the same.</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">📖</div>
+                <h3>Fairytale Backgrounds</h3>
+                <p>6 enchanting storybook scenes that change each game — forests, castles, meadows, and more.</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🔥</div>
+                <h3>Combo System</h3>
+                <p>Clear lines quickly for combo multipliers. Chain combos for massive bonus points!</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">⭐</div>
+                <h3>Star Collection</h3>
+                <p>Collect stars from special cells. Unlock Bamboo, Dark Oak, and Golden Wood types.</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🔊</div>
+                <h3>Immersive Sound</h3>
+                <p>Hand-crafted procedural sound effects and haptic feedback for a satisfying experience.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Themes -->
+    <div class="section">
+        <h2>🎨 Fairytale Themes</h2>
+        <div class="themes-list">
+            <div class="theme-item"><span class="emoji">🌲</span>Enchanted Forest</div>
+            <div class="theme-item"><span class="emoji">🏰</span>Castle Twilight</div>
+            <div class="theme-item"><span class="emoji">🌾</span>Golden Meadow</div>
+            <div class="theme-item"><span class="emoji">🌙</span>Starry Night</div>
+            <div class="theme-item"><span class="emoji">🍂</span>Autumn Woods</div>
+            <div class="theme-item"><span class="emoji">🏔</span>Mystic Lake</div>
+        </div>
+    </div>
+
+    <!-- Download -->
+    <div class="download-section">
+        <h2>Download Now</h2>
+        <p>Available for free on iPhone, iPad, and Mac.</p>
+        <a href="#" class="app-store-btn">📲 Download on the App Store</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-use.html">Terms of Use</a>
+            <a href="support.html">Support</a>
+            <a href="https://github.com/hoainam8x/WoodFill" target="_blank">GitHub</a>
+        </div>
+        <p class="copyright">© 2026 Duna's Studio. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
