@@ -1,0 +1,10 @@
+# ======================================================================
+# app-ads.txt — Duna's Screw Puzzle
+# ======================================================================
+# Host this file at: https://dunagame.com/app-ads.txt
+# This file declares authorized digital advertising sellers for the app.
+# Required by Google AdMob to maximize ad fill rate and eCPM.
+# ======================================================================
+
+# Google AdMob (publisher ID: pub-5115828862032559)
+google.com, pub-5115828862032559, DIRECT, f08c47fec0942fa0

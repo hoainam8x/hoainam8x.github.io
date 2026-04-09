@@ -1,0 +1,53 @@
+# ======================================================================
+# APP STORE CONNECT — APP PRIVACY (Data Collection Questionnaire)
+# ======================================================================
+# Fill in App Store Connect > App Privacy section using these answers.
+# ======================================================================
+
+# ── Do you or your third-party partners collect data? ──
+Answer: YES
+
+# ── Data Types Collected ──
+
+## 1. Identifiers
+- Device ID (IDFA via AdMob):
+  - Purpose:              Third-Party Advertising
+  - Linked to Identity:   No
+  - Used for Tracking:    Yes (only if ATT consent given)
+
+## 2. Usage Data
+- Product Interaction (levels played, game progress):
+  - Purpose:              App Functionality, Analytics
+  - Linked to Identity:   No
+  - Used for Tracking:    No
+
+## 3. Diagnostics
+- Performance Data (crash logs via Xcode):
+  - Purpose:              App Functionality
+  - Linked to Identity:   No
+  - Used for Tracking:    No
+
+# ── Data NOT Collected ──
+- Contact Info (name, email, phone):              NOT COLLECTED
+- Health & Fitness:                                NOT COLLECTED
+- Financial Info:                                  NOT COLLECTED
+- Location:                                        NOT COLLECTED (AdMob uses IP for approximate)
+- Contacts:                                        NOT COLLECTED
+- User Content:                                    NOT COLLECTED
+- Browsing History:                                NOT COLLECTED
+- Search History:                                  NOT COLLECTED
+- Sensitive Info:                                  NOT COLLECTED
+- Photos or Videos:                                NOT COLLECTED
+
+# ── Privacy Nutrition Label Summary ──
+# (This is what will appear on the App Store)
+#
+# Data Used to Track You:
+#   • Identifiers (IDFA — only with ATT consent)
+#
+# Data Linked to You:
+#   (None)
+#
+# Data Not Linked to You:
+#   • Usage Data (game progress)
+#   • Diagnostics (crash reports)

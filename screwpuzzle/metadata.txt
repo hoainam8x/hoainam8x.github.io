@@ -1,0 +1,204 @@
+# ======================================================================
+# DUNA'S SCREW PUZZLE — APP STORE CONNECT METADATA
+# ======================================================================
+# Copy/paste these values into App Store Connect when creating the app.
+# ======================================================================
+
+# ── BASIC INFO ──────────────────────────────────────────────────────
+
+App Name:               Duna's Screw Puzzle
+Subtitle:               Unscrew, Drop & Solve!
+Bundle ID:              com.dunagame.screwpuzzle
+SKU:                    DUNA-SCREW-PUZZLE-2026
+Primary Language:       English (U.S.)
+Category (Primary):     Games — Puzzle
+Category (Secondary):   Games — Board
+
+# ── PRICING ─────────────────────────────────────────────────────────
+
+Price:                  Free
+In-App Purchases:       Yes (see IAP section below)
+Territories:            All territories (Worldwide)
+
+# ── AGE RATING (answers to questionnaire) ──────────────────────────
+
+Cartoon or Fantasy Violence:            None
+Realistic Violence:                     None
+Prolonged Graphic or Sadistic Violence: None
+Profanity or Crude Humor:               None
+Mature/Suggestive Themes:               None
+Horror/Fear Themes:                     None
+Medical/Treatment Information:          None
+Alcohol, Tobacco, or Drug Use:          None
+Simulated Gambling:                     None
+Sexual Content or Nudity:               None
+Unrestricted Web Access:                No
+Gambling and Contests:                  No
+
+→ Expected Rating:  4+ (Everyone)
+
+# ── VERSION INFO ────────────────────────────────────────────────────
+
+Version Number:         1.0.0
+Build Number:           1
+Copyright:              © 2026 Duna Game Studio. All rights reserved.
+
+# ── APP STORE DESCRIPTION (English) ────────────────────────────────
+
+Promotional Text (170 chars max):
+Can you unscrew them all? 🔩 Tap, solve, and feel the ASMR satisfaction in this addictive physics puzzle. 40+ hand-crafted levels!
+
+Description (4000 chars max):
+🔩 DUNA'S SCREW PUZZLE — The Ultimate ASMR Puzzle Experience!
+
+Unscrew bolts. Watch plates fall. Feel the satisfaction.
+
+Tap screws to remove them from wooden and iron plates. When all screws are gone, the plate drops with realistic physics. Clear every plate to win!
+
+🎮 HOW TO PLAY
+• Tap a screw to select it
+• Tap an empty hole to place the screw
+• Remove all screws from a plate — it falls!
+• Clear all plates to complete the level
+
+✨ FEATURES
+• 40+ Hand-Crafted Levels — From easy tutorials to expert brain-teasers
+• Realistic Physics — Plates fall, collide, and bounce naturally
+• Special Items — Locked screws, iron plates, mystery holes, color-coded holes
+• ASMR Sounds — Satisfying metallic clicks, wood creaks, and victory chimes
+• Haptic Feedback — Feel every unscrew, drop, and collision
+• Progressive Difficulty — 5 chapters with smooth difficulty curve
+• Undo & Hints — Stuck? Use undo or get a smart hint
+• Offline Play — No internet required
+
+🏆 CHALLENGE YOURSELF
+• Earn up to 3 stars per level
+• Complete levels in minimum moves for the best score
+• Unlock new chapters as you progress
+
+🎨 BEAUTIFUL DESIGN
+• Minimalist industrial style with warm wood and shiny metal
+• Subtle animations and visual effects
+• Clean, intuitive interface
+
+Download now and discover why millions love screw puzzles!
+
+# ── KEYWORDS (100 chars max, comma-separated) ──────────────────────
+
+Keywords:
+screw,puzzle,unscrew,bolt,physics,brain,teaser,asmr,relax,wood,metal,logic,plate,drop,satisfying
+
+# ── WHAT'S NEW (Version 1.0.0) ─────────────────────────────────────
+
+What's New:
+🎉 Welcome to Duna's Screw Puzzle!
+• 40 hand-crafted levels across 5 chapters
+• Realistic physics engine
+• Special items: Locked Screws, Iron Plates, Mystery Holes
+• ASMR sound design with haptic feedback
+• Undo, Hint, and Extra Hole power-ups
+• Tutorial for new players
+
+# ── URLS ────────────────────────────────────────────────────────────
+
+Privacy Policy URL:     https://dunagame.com/screw-puzzle/privacy
+Support URL:            https://dunagame.com/screw-puzzle/support
+Marketing URL:          https://dunagame.com/screw-puzzle
+
+# ── CONTACT INFO ────────────────────────────────────────────────────
+
+Contact Email:          support@dunagame.com
+Contact Phone:          (optional — add your phone)
+Demo Account:           Not required (no login)
+
+# ── REVIEW NOTES ────────────────────────────────────────────────────
+
+Notes for Review:
+This is a single-player puzzle game. No login is required.
+The game is fully playable offline with 40 built-in levels.
+Ads are shown between levels (interstitial) and as optional rewarded videos.
+In-app purchases allow removing ads and purchasing power-ups.
+The app uses App Tracking Transparency (ATT) to request permission before personalized ads.
+
+# ── IN-APP PURCHASES ───────────────────────────────────────────────
+
+IAP 1:
+  Reference Name:       Remove Ads
+  Product ID:           com.dunagame.screwpuzzle.removeads
+  Type:                 Non-Consumable
+  Price Tier:           Tier 3 ($2.99)
+  Display Name:         Remove Ads
+  Description:          Remove all banner and interstitial ads permanently. Rewarded ads remain available as an option.
+
+IAP 2:
+  Reference Name:       Starter Pack
+  Product ID:           com.dunagame.screwpuzzle.starterpack
+  Type:                 Non-Consumable
+  Price Tier:           Tier 5 ($4.99)
+  Display Name:         No Ads + Starter Pack
+  Description:          Remove all ads permanently plus get 500 bonus coins and 10 extra hints to help you through tough levels.
+
+IAP 3:
+  Reference Name:       Infinite Lives
+  Product ID:           com.dunagame.screwpuzzle.infinitelives
+  Type:                 Non-Consumable
+  Price Tier:           Tier 2 ($1.99)
+  Display Name:         Infinite Lives
+  Description:          Never run out of lives! Play as much as you want without waiting.
+
+# ── SCREENSHOT CAPTIONS (for App Store screenshots) ─────────────────
+
+Screenshot 1 (Game Play):
+"Unscrew bolts & watch plates fall with realistic physics!"
+
+Screenshot 2 (Levels):
+"40+ hand-crafted levels across 5 chapters"
+
+Screenshot 3 (Special Items):
+"Locked screws, iron plates & mystery holes"
+
+Screenshot 4 (Win Screen):
+"Earn 3 stars on every level!"
+
+Screenshot 5 (Level Select):
+"Track your progress with stars & difficulty ratings"
+
+Screenshot 6 (Tutorial):
+"Easy to learn, hard to master"
+
+# ── LOCALIZATION (Vietnamese) ───────────────────────────────────────
+
+[vi] Promotional Text:
+Bạn có thể tháo hết ốc không? 🔩 Chạm, giải đố và cảm nhận sự thỏa mãn ASMR trong trò chơi vật lý gây nghiện này!
+
+[vi] Description:
+🔩 DUNA'S SCREW PUZZLE — Trải Nghiệm Giải Đố ASMR Tuyệt Đỉnh!
+
+Tháo ốc vít. Nhìn tấm gỗ rơi. Cảm nhận sự thỏa mãn.
+
+Chạm vào ốc để tháo chúng khỏi tấm gỗ và tấm sắt. Khi tất cả ốc được tháo, tấm bảng sẽ rơi theo vật lý thực. Loại bỏ tất cả tấm bảng để chiến thắng!
+
+🎮 CÁCH CHƠI
+• Chạm vào ốc để chọn
+• Chạm vào lỗ trống để đặt ốc
+• Tháo hết ốc trên bảng — bảng sẽ rơi!
+• Loại bỏ tất cả bảng để hoàn thành level
+
+✨ TÍNH NĂNG
+• 40+ Level thủ công — Từ dễ đến cực khó
+• Vật lý thực — Bảng rơi, va chạm tự nhiên
+• Vật phẩm đặc biệt — Ốc khóa, bảng sắt, lỗ bí ẩn, lỗ màu
+• Âm thanh ASMR — Tiếng kim loại, gỗ kêu, nhạc chiến thắng
+• Rung phản hồi — Cảm nhận mỗi thao tác
+• Chơi Offline — Không cần internet
+
+[vi] Keywords:
+ốc vít,giải đố,vật lý,puzzle,tháo ốc,thư giãn,asmr,logic,gỗ,kim loại,não,thỏa mãn
+
+[vi] What's New:
+🎉 Chào mừng đến với Duna's Screw Puzzle!
+• 40 level qua 5 chương
+• Vật lý thực
+• Ốc khóa, Bảng sắt, Lỗ bí ẩn
+• Âm thanh ASMR + Rung phản hồi
+• Hoàn toàn miễn phí

@@ -1,0 +1,75 @@
+# ======================================================================
+# APP REVIEW INFORMATION — Duna's Screw Puzzle
+# ======================================================================
+# Paste this into App Store Connect > App Review Information
+# ======================================================================
+
+# ── Contact Information ──
+First Name:     [Your First Name]
+Last Name:      [Your Last Name]
+Phone Number:   [Your Phone Number]
+Email:          support@dunagame.com
+
+# ── Sign-In Information ──
+Sign-In Required:   No
+Demo Account:       Not applicable (no login system)
+
+# ── Notes for Reviewer ──
+
+Notes:
+This is a single-player physics puzzle game. No login or account creation
+is required.
+
+HOW TO TEST:
+1. Launch the app — you will see the main menu.
+2. Tap "PLAY" to enter the level selection screen.
+3. Select Level 1 to start playing.
+4. Tap a screw (colored circle on a plate) to select it.
+5. Tap an empty hole (dark circle at the bottom) to place the screw.
+6. When all screws are removed from a plate, it falls with physics.
+7. Clear all plates to win the level.
+
+FEATURES TO VERIFY:
+- Tutorial appears automatically on Level 1 (first-time players only)
+- Undo button reverses the last move (including restoring fallen plates)
+- Hint button highlights a suggested move
+- Pause button pauses gameplay and shows resume/restart/menu options
+- Help (?) button shows level-specific instructions
+- Settings (gear icon) toggles sound and haptic feedback
+- Win overlay shows stars earned and allows next level/replay/menu
+- Lose overlay offers retry, watch ad for extra hole, or return to menu
+
+ADVERTISEMENTS:
+- Banner ads appear between levels (level select, win/lose screens)
+- Banners are hidden during active gameplay
+- Interstitial ads appear after every 3 levels completed (with 60s cooldown)
+- Rewarded video ads are optional — shown when player taps "Watch Ad"
+  to earn an extra hole during gameplay
+- "Remove Ads" IAP removes banner and interstitial ads permanently
+- All ads use Google AdMob with proper ATT consent flow
+
+IN-APP PURCHASES:
+- "Remove Ads" ($2.99) — removes banner and interstitial ads
+- "No Ads + Starter Pack" ($4.99) — removes ads + 500 coins + 10 hints
+- "Infinite Lives" ($1.99) — unlimited lives, no waiting
+- All purchases are non-consumable and restorable
+
+PRIVACY:
+- ATT prompt is shown on first launch (iOS 14.5+)
+- No personal data is collected by the app itself
+- AdMob may collect IDFA if user consents
+- Game progress is stored locally (UserDefaults) and optionally via iCloud
+- Full privacy policy: https://dunagame.com/screw-puzzle/privacy
+
+OFFLINE CAPABILITY:
+- All 40 levels are bundled with the app
+- Game is fully playable without internet
+- Internet only needed for ads and iCloud sync
+
+SPECIAL GAME MECHANICS (for reference):
+- Locked Screws: Tap 2x to unlock before placing
+- Iron Plates: Heavy, fall faster, can crush wooden plates
+- Mystery Holes: Hidden under plates, revealed when plate falls
+- Color Holes: Only accept matching color screws
+
+This app contains no objectionable content and is rated 4+.

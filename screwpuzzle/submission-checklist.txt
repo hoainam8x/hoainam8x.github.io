@@ -1,0 +1,105 @@
+# ======================================================================
+# CHECKLIST: SUBMIT TO APP STORE
+# ======================================================================
+# Complete each item before submitting for review.
+# ======================================================================
+
+## 📋 PRE-SUBMISSION CHECKLIST
+
+### Code & Build
+- [ ] Build succeeds with zero errors (iOS + macOS)
+- [ ] Archive build succeeds (Product > Archive in Xcode)
+- [ ] No compiler warnings (except system warnings)
+- [ ] All `#if DEBUG` flags properly gate test behavior
+- [ ] AdMob production IDs set in AdManager.swift
+- [ ] AdMob App ID set in Info.plist (ca-app-pub-5115828862032559~7724165709)
+- [ ] ADMOB_ENABLED flag set in Build Settings > Swift Compiler - Custom Flags
+- [ ] Version number set to 1.0.0
+- [ ] Build number set to 1
+
+### Info.plist
+- [ ] CFBundleDisplayName = "Duna's Screw Puzzle"
+- [ ] UIRequiresFullScreen = YES
+- [ ] UISupportedInterfaceOrientations = Portrait only (iPhone)
+- [ ] UISupportedInterfaceOrientations~ipad = All 4 orientations
+- [ ] GADApplicationIdentifier = production App ID
+- [ ] NSUserTrackingUsageDescription = ATT description text
+- [ ] ITSAppUsesNonExemptEncryption = NO
+- [ ] SKAdNetworkItems = 10 Google network IDs
+
+### Privacy
+- [ ] PrivacyInfo.xcprivacy file included in bundle
+- [ ] ATT prompt shows on first launch
+- [ ] Privacy Policy URL live: https://dunagame.com/screw-puzzle/privacy
+
+### App Store Connect
+- [ ] App created in App Store Connect
+- [ ] Bundle ID matches: com.dunagame.screwpuzzle
+- [ ] App name: "Duna's Screw Puzzle"
+- [ ] Subtitle: "Unscrew, Drop & Solve!"
+- [ ] Category: Games — Puzzle
+- [ ] Age Rating: 4+
+- [ ] Description filled (English + Vietnamese)
+- [ ] Keywords filled (English + Vietnamese)
+- [ ] Promotional Text filled
+- [ ] What's New filled
+- [ ] Privacy Policy URL entered
+- [ ] Support URL entered
+- [ ] Marketing URL entered (optional)
+- [ ] Copyright: © 2026 Duna Game Studio
+
+### Screenshots (required)
+- [ ] iPhone 6.9" (iPhone 15 Pro Max) — 1320 x 2868 or 1290 x 2796
+- [ ] iPhone 6.7" (iPhone 14 Pro Max) — 1290 x 2796
+- [ ] iPhone 6.5" (iPhone 11 Pro Max) — 1242 x 2688
+- [ ] iPhone 5.5" (iPhone 8 Plus) — 1242 x 2208
+- [ ] iPad Pro 12.9" — 2048 x 2732 (if supporting iPad)
+- [ ] Minimum 3 screenshots, maximum 10 per device
+- [ ] No alpha transparency, no rounded corners
+
+### In-App Purchases
+- [ ] "Remove Ads" (com.dunagame.screwpuzzle.removeads) — $2.99
+- [ ] "Starter Pack" (com.dunagame.screwpuzzle.starterpack) — $4.99
+- [ ] "Infinite Lives" (com.dunagame.screwpuzzle.infinitelives) — $1.99
+- [ ] Review screenshot for each IAP
+- [ ] Localized display name and description
+
+### App Privacy Questionnaire
+- [ ] Data types declared (Identifiers, Usage Data, Diagnostics)
+- [ ] Tracking disclosure: IDFA via AdMob (with ATT consent)
+- [ ] Third-party SDK: Google AdMob declared
+
+### Advertising
+- [ ] app-ads.txt hosted at https://dunagame.com/app-ads.txt
+- [ ] Contains: google.com, pub-5115828862032559, DIRECT, f08c47fec0942fa0
+- [ ] AdMob dashboard: app registered and ad units active
+
+### Review Information
+- [ ] Contact email: support@dunagame.com
+- [ ] Contact phone: [your phone]
+- [ ] Demo account: Not required
+- [ ] Review notes pasted from review-notes.txt
+
+### Website
+- [ ] Privacy Policy page live
+- [ ] Terms of Service page live
+- [ ] Support page live
+- [ ] app-ads.txt hosted at root domain
+
+## 🚀 SUBMISSION STEPS
+
+1. In Xcode: Product > Archive
+2. In Xcode Organizer: Distribute App > App Store Connect
+3. Wait for processing (5-15 minutes)
+4. In App Store Connect: Select the build
+5. Fill in all metadata (from metadata.txt)
+6. Upload screenshots
+7. Complete App Privacy questionnaire (from app-privacy-questionnaire.txt)
+8. Add IAP products and screenshots
+9. Paste review notes (from review-notes.txt)
+10. Submit for Review
+
+## ⏱ EXPECTED TIMELINE
+- Initial review: 24-48 hours (typically)
+- If rejected: Fix issues and resubmit
+- First approval may take longer (3-7 days for new accounts)
