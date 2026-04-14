@@ -1,0 +1,134 @@
+{
+  "app_name": "Duna's Mystic Mahjong",
+  "display_name_homescreen": "Duna's Mystic",
+  "bundle_id": "com.duna.MysticMahjong.Mystic-Mahjong",
+  "version": "1.0",
+  "build": "1",
+  "primary_language": "English (U.S.)",
+  "category": {
+    "primary": "Games",
+    "secondary": "Puzzle"
+  },
+  "subcategory": "Board",
+  "price": "Free",
+  "availability": "All territories",
+  
+  "app_store_metadata": {
+    "en-US": {
+      "name": "Duna's Mystic Mahjong",
+      "subtitle": "Zen Tile Matching Puzzle",
+      "promotional_text": "🏛 Illuminate the Ancient Temple! Unlimited zen puzzle levels with beautiful tiles, soothing sounds, and satisfying matching.",
+      "description": "Embark on a meditative journey through the Mystic Temple.\n\nDuna's Mystic Mahjong is a beautifully crafted tile-matching puzzle game designed for moments of quiet clarity. Match pairs of identical tiles to clear the board, illuminate the Ancient Temple, and collect Mystic Fragments on an endless journey.\n\n✦ FEATURES\n\n• Unlimited Levels — Procedurally generated puzzles that never end. Each level is unique and guaranteed solvable.\n\n• Zen Experience — Warm, elegant design with soft cream tones and gentle animations. Perfect for unwinding after a long day.\n\n• Satisfying Matching — Connect tiles with glowing path lines. Feel the satisfying haptic feedback and hear the soothing match sounds with adaptive pitch combos.\n\n• Temple Progression — Every level lights up the Ancient Temple. Progress through eras: Dawn → Bloom → Radiance → Twilight → Eternal.\n\n• Smart Difficulty — Gentle introduction for beginners. Levels gradually increase in complexity with more tile types, larger boards, and time challenges.\n\n• Helpful Power-ups — Use Hints to spot matches and Shuffle to rearrange tiles when stuck. Watch a short video for extra time or power-ups.\n\n• Beautiful Audio — Ambient zen soundscapes with pentatonic match tones that rise with your combo streak.\n\n• Haptic Feedback — Feel every tap and match through your iPhone's Taptic Engine.\n\n• Works Offline — No internet required to play. Your perfect commute or travel companion.\n\n✦ DESIGNED FOR RELAXATION\n\nEvery detail — from the warm color palette to the gentle particle effects — is crafted to create a calming, satisfying experience. No pressure, no stress. Just you and the tiles.\n\nDownload now and begin your journey to illuminate the Mystic Temple.\n\n✦ Free to play with ads. No in-app purchases.",
+      "keywords": "mahjong,puzzle,zen,tiles,matching,relax,brain,temple,mystic,solitaire,calm,board,meditation,connect,pairs",
+      "support_url": "https://dunaapps.com/mystic-mahjong/support.html",
+      "marketing_url": "https://dunaapps.com/mystic-mahjong/",
+      "privacy_policy_url": "https://dunaapps.com/mystic-mahjong/privacy-policy.html"
+    },
+    "vi": {
+      "name": "Duna's Mystic Mahjong",
+      "subtitle": "Xếp Hình Thư Giãn Zen",
+      "promotional_text": "🏛 Thắp sáng Cổ Tự Huyền Bí! Vô số cấp độ xếp hình zen với gạch đẹp, âm thanh êm dịu và cảm giác thỏa mãn.",
+      "description": "Bắt đầu hành trình thiền định qua Cổ Tự Huyền Bí.\n\nDuna's Mystic Mahjong là trò chơi xếp hình ghép đôi được thiết kế tinh tế cho những khoảnh khắc tĩnh lặng. Ghép các cặp gạch giống nhau để thắp sáng Cổ Tự và thu thập Bảo Vật Mystic trong hành trình vô tận.\n\n✦ TÍNH NĂNG\n\n• Vô Số Cấp Độ — Mỗi màn chơi được tạo tự động, độc nhất và luôn có lời giải.\n\n• Trải Nghiệm Zen — Thiết kế ấm áp, thanh lịch với tông kem dịu nhẹ. Hoàn hảo để thư giãn sau ngày dài.\n\n• Ghép Đôi Thỏa Mãn — Đường nối phát sáng giữa các gạch. Cảm nhận rung phản hồi và âm thanh combo tăng dần.\n\n• Thắp Sáng Cổ Tự — Mỗi cấp độ hoàn thành sẽ thắp sáng ngôi đền. Tiến qua các kỷ nguyên: Bình Minh → Nở Rộ → Rực Rỡ → Hoàng Hôn → Vĩnh Cửu.\n\n• Hỗ Trợ Thông Minh — Dùng Gợi Ý để tìm cặp ghép, Xáo Bài khi bị kẹt.\n\n• Hoạt Động Ngoại Tuyến — Không cần internet.\n\nTải ngay và bắt đầu hành trình thắp sáng Cổ Tự Huyền Bí.\n\n✦ Miễn phí với quảng cáo. Không mua trong ứng dụng.",
+      "keywords": "mahjong,xếp hình,zen,gạch,ghép đôi,thư giãn,trí não,đền,huyền bí,solitaire,bình tĩnh,cờ,thiền"
+    }
+  },
+
+  "age_rating": {
+    "rating": "4+",
+    "notes": "No violence, no objectionable content, no user-generated content, no unrestricted web access",
+    "contains_ads": true,
+    "gambling": false,
+    "mature_content": false,
+    "medical_treatment": false
+  },
+
+  "app_review_information": {
+    "contact_first_name": "Nam",
+    "contact_last_name": "Hoai",
+    "contact_email": "support@dunaapps.com",
+    "contact_phone": "+84-xxx-xxx-xxxx",
+    "demo_account_required": false,
+    "notes_for_reviewer": "This is a free tile-matching puzzle game with AdMob advertisements. No login required. The game starts immediately from the home screen — tap 'Begin Journey' to play. Levels are procedurally generated and always solvable. The game uses ATT (App Tracking Transparency) to request permission before showing personalized ads."
+  },
+
+  "privacy_details": {
+    "data_collection": {
+      "identifiers": {
+        "device_id": {
+          "collected": true,
+          "purpose": "Third-Party Advertising",
+          "linked_to_identity": false,
+          "tracking": true,
+          "note": "IDFA collected by AdMob, only with user consent via ATT"
+        }
+      },
+      "usage_data": {
+        "product_interaction": {
+          "collected": true,
+          "purpose": "Analytics, App Functionality",
+          "linked_to_identity": false,
+          "tracking": false,
+          "note": "Anonymous level completion stats via Firebase Analytics"
+        }
+      },
+      "diagnostics": {
+        "performance_data": {
+          "collected": true,
+          "purpose": "App Functionality",
+          "linked_to_identity": false,
+          "tracking": false
+        }
+      }
+    },
+    "data_not_collected": [
+      "Contact Info (name, email, phone)",
+      "Health & Fitness",
+      "Financial Info",
+      "Location",
+      "Contacts",
+      "User Content (photos, videos)",
+      "Search History",
+      "Browsing History",
+      "Purchases",
+      "Sensitive Info"
+    ]
+  },
+
+  "export_compliance": {
+    "uses_non_exempt_encryption": false,
+    "contains_proprietary_cryptography": false,
+    "contains_third_party_cryptography": false
+  },
+
+  "content_rights": {
+    "does_contain_third_party_content": false,
+    "rights_declaration": "All content is original"
+  },
+
+  "screenshots_required": {
+    "iphone_6_7_inch": {
+      "device": "iPhone 15 Pro Max / 16 Pro Max",
+      "resolution": "1290 x 2796 px",
+      "count": "minimum 3, maximum 10",
+      "suggested_scenes": [
+        "1. Home screen with temple and 'Begin Journey' button",
+        "2. Gameplay Level 1 — clean board with matching tiles",
+        "3. Gameplay Level 15+ — larger board with timer",
+        "4. Match animation with glowing path line",
+        "5. Level complete celebration screen"
+      ]
+    },
+    "iphone_6_5_inch": {
+      "device": "iPhone 15 Pro / 14 Pro",
+      "resolution": "1284 x 2778 px",
+      "count": "minimum 3, maximum 10",
+      "note": "Can reuse 6.7-inch screenshots if aspect ratio matches"
+    },
+    "ipad_pro_12_9_inch": {
+      "device": "iPad Pro 12.9-inch",
+      "resolution": "2048 x 2732 px",
+      "count": "minimum 3, maximum 10",
+      "note": "Required only if app supports iPad"
+    }
+  }
+}
