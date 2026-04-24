@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Duna's Word</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 50px 40px;
+        }
+        
+        .content h2 {
+            color: #4facfe;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .content h2:first-child {
+            margin-top: 0;
+        }
+        
+        .content h3 {
+            color: #00f2fe;
+            font-size: 1.3em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .content p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            color: #555;
+        }
+        
+        .content ul {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .content li {
+            margin-bottom: 10px;
+            color: #555;
+            font-size: 1.05em;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            border-left: 4px solid #4facfe;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .faq-item h3 {
+            color: #4facfe;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .contact-card {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .contact-card h3 {
+            color: white;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        
+        .contact-method {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .contact-method a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        .contact-method a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .footer a {
+            color: #4facfe;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #4facfe;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 10px 5px;
+            transition: transform 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                padding: 40px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .footer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💬 Support</h1>
+            <p>We're here to help you!</p>
+        </div>
+        
+        <div class="content">
+            <p style="font-size: 1.2em; text-align: center;">
+                Welcome to Duna's Word Support! Whether you have a question, found a bug, or just want to say hi, we're happy to hear from you. 😊
+            </p>
+            
+            <div class="contact-card">
+                <h3>📧 Contact Us</h3>
+                <div class="contact-method">
+                    <a href="mailto:support@duna.app">support@duna.app</a>
+                </div>
+                <p style="margin-top: 15px; opacity: 0.9;">We typically respond within 24-48 hours</p>
+            </div>
+            
+            <h2>❓ Frequently Asked Questions (FAQ)</h2>
+            
+            <div class="faq-item">
+                <h3>How do I play the game?</h3>
+                <p><strong>Easy!</strong></p>
+                <ol>
+                    <li>Tap letters in the circular board to form words</li>
+                    <li>Swipe through letters in any direction</li>
+                    <li>Find all target words to complete the level</li>
+                    <li>Look for bonus words to earn extra coins! ⭐</li>
+                </ol>
+                <p>The tutorial will guide you through the basics when you first launch the app.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What are coins and how do I use them?</h3>
+                <p><strong>Coins are the game's currency!</strong></p>
+                <ul>
+                    <li>💰 <strong>Earn coins</strong> by finding words (especially bonus words)</li>
+                    <li>🎁 <strong>Spend coins</strong> on power-ups:
+                        <ul>
+                            <li><strong>Shuffle (10 coins):</strong> Rearrange letters</li>
+                            <li><strong>Reveal Letter (20 coins):</strong> Show one letter of a word</li>
+                            <li><strong>Hint (15 coins):</strong> Get direction guidance</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do stars work?</h3>
+                <p><strong>Stars measure how well you completed a level!</strong></p>
+                <ul>
+                    <li>⭐ <strong>1 Star:</strong> Completed the level</li>
+                    <li>⭐⭐ <strong>2 Stars:</strong> Found most words with few hints</li>
+                    <li>⭐⭐⭐ <strong>3 Stars:</strong> Perfect! Found all words with minimal hints</li>
+                </ul>
+                <p>You can replay levels to improve your star rating!</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How can I see word definitions?</h3>
+                <p><strong>Tap any word you've found!</strong></p>
+                <ul>
+                    <li>Tap a word in the "Found Words" panel</li>
+                    <li>See English definition and Vietnamese translation (if available)</li>
+                    <li>Tap the speaker icon to hear pronunciation</li>
+                </ul>
+                <p><em>Note: Definitions use public dictionary services (Wiktionary, Free Dictionary API, and optional machine translation) and require an internet connection. Checking whether a swipe is a valid English bonus word uses a built-in offline word list.</em></p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What are achievements?</h3>
+                <p><strong>Unlock achievements by reaching milestones!</strong></p>
+                <ul>
+                    <li>🏆 12 achievements to unlock</li>
+                    <li>Track your progress in the Achievements panel</li>
+                    <li>Examples: Word Wizard (find 100+ words), Speed Reader (complete level under 2 min)</li>
+                </ul>
+                <p>Tap the trophy icon (🏆) to see all achievements.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>I'm stuck on a level. What should I do?</h3>
+                <p><strong>Don't worry, here are some tips:</strong></p>
+                <ul>
+                    <li>💡 <strong>Use the Hint button</strong> - It shows the direction of a word</li>
+                    <li>🔀 <strong>Try Shuffle</strong> - Sometimes seeing letters in a different order helps</li>
+                    <li>📝 <strong>Try different combinations</strong> - Don't just look for common words</li>
+                    <li>🔄 <strong>Look for reversed words</strong> - Words can be spelled backwards too!</li>
+                    <li>⭐ <strong>Hunt for bonus words</strong> - They give extra coins and points</li>
+                </ul>
+            </div>
+            
+            <div class="faq-item">
+                <h3>My game progress was lost! Can you help?</h3>
+                <p><strong>Unfortunately, game progress is stored locally on your device.</strong></p>
+                <p>Progress can be lost if you:</p>
+                <ul>
+                    <li>Uninstall the app</li>
+                    <li>Reset your device</li>
+                    <li>Restore your device from a backup that doesn't include app data</li>
+                </ul>
+                <p><strong>Prevention tip:</strong> Enable iCloud backup for your device (Settings → [Your Name] → iCloud → iCloud Backup).</p>
+                <p><em>We're working on cloud save features for a future update!</em> 🚀</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>The app crashes or freezes. What can I do?</h3>
+                <p><strong>Try these troubleshooting steps:</strong></p>
+                <ol>
+                    <li><strong>Force quit the app:</strong> Swipe up from the bottom and swipe the app away</li>
+                    <li><strong>Restart your device:</strong> Turn it off and on again</li>
+                    <li><strong>Update the app:</strong> Check the App Store for updates</li>
+                    <li><strong>Update iOS:</strong> Go to Settings → General → Software Update</li>
+                    <li><strong>Reinstall the app:</strong> Delete and download again (⚠️ will lose progress)</li>
+                </ol>
+                <p>If the problem persists, please email us at <a href="mailto:support@duna.app">support@duna.app</a> with:</p>
+                <ul>
+                    <li>Your device model (e.g., iPhone 14 Pro)</li>
+                    <li>Your iOS version (e.g., iOS 17.2)</li>
+                    <li>What you were doing when it crashed</li>
+                    <li>Screenshots if possible</li>
+                </ul>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Can I play offline?</h3>
+                <p><strong>Yes! ✅</strong></p>
+                <ul>
+                    <li>All 65 levels work offline</li>
+                    <li>Game progress is saved locally</li>
+                    <li>Achievements and coins work offline</li>
+                </ul>
+                <p><strong>What needs internet:</strong></p>
+                <ul>
+                    <li>Word definitions (Wiktionary, dictionaryapi.dev, translation helper when you open the definition sheet)</li>
+                    <li>Advertisements (Google AdMob)</li>
+                </ul>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I turn off sound/haptics?</h3>
+                <p><strong>Currently, sound and haptics follow your device settings.</strong></p>
+                <ul>
+                    <li><strong>Mute sound:</strong> Use the physical mute switch on your iPhone</li>
+                    <li><strong>Disable haptics:</strong> Settings → Sounds & Haptics → System Haptics (toggle off)</li>
+                </ul>
+                <p><em>We're planning to add in-app settings in a future update!</em></p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Will there be more levels?</h3>
+                <p><strong>Yes! 🎉</strong></p>
+                <p>We're actively working on adding more levels and features. Stay tuned for updates! Features coming soon:</p>
+                <ul>
+                    <li>More levels (targeting 100+ levels)</li>
+                    <li>Daily challenges</li>
+                    <li>Themed word packs</li>
+                    <li>Cloud save / sync across devices</li>
+                    <li>More power-ups and achievements</li>
+                </ul>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is the game free? Are there ads?</h3>
+                <p><strong>The game is free to download and play!</strong></p>
+                <ul>
+                    <li>✅ All 65 levels are free</li>
+                    <li>✅ All features are free</li>
+                    <li>✅ No in-app purchases (currently)</li>
+                    <li>⚠️ Contains ads (Google AdMob)</li>
+                </ul>
+                <p><em>We may introduce optional ad removal or premium features in the future, but the core game will always be free!</em></p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Can I suggest new features or report bugs?</h3>
+                <p><strong>Absolutely! We'd love to hear from you! 💙</strong></p>
+                <p>Email us at <a href="mailto:support@duna.app">support@duna.app</a> with:</p>
+                <ul>
+                    <li><strong>Feature requests:</strong> Tell us what you'd like to see</li>
+                    <li><strong>Bug reports:</strong> Describe the issue, steps to reproduce, and device info</li>
+                    <li><strong>Feedback:</strong> What you love, what could be better</li>
+                </ul>
+                <p>Your feedback helps us make Duna's Word better for everyone!</p>
+            </div>
+            
+            <h2>📱 System Requirements</h2>
+            <ul>
+                <li><strong>Platform:</strong> iOS / iPadOS</li>
+                <li><strong>Minimum Version:</strong> iOS 15.0 or later</li>
+                <li><strong>Devices:</strong> iPhone, iPad</li>
+                <li><strong>Storage:</strong> ~50 MB</li>
+                <li><strong>Internet:</strong> Optional (required for definitions and ads)</li>
+            </ul>
+            
+            <h2>🔒 Privacy & Security</h2>
+            <p>Your privacy is important to us. Please review our policies:</p>
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="privacy-policy.html" class="btn">Privacy Policy</a>
+                <a href="terms-of-service.html" class="btn">Terms of Service</a>
+            </div>
+            
+            <h2>📧 Still Need Help?</h2>
+            <p style="text-align: center; font-size: 1.1em;">
+                Can't find what you're looking for? We're here to help!
+            </p>
+            <div class="contact-card">
+                <h3>Get in Touch</h3>
+                <div class="contact-method">
+                    📧 Email: <a href="mailto:support@duna.app">support@duna.app</a>
+                </div>
+                <div class="contact-method">
+                    🌐 Website: <a href="https://wordconnect.duna.app">wordconnect.duna.app</a>
+                </div>
+                <p style="margin-top: 20px; opacity: 0.9;">
+                    <strong>Response Time:</strong> We typically respond within 24-48 hours on business days.
+                </p>
+                <p style="opacity: 0.9;">
+                    <strong>Business Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM (GMT+7)
+                </p>
+            </div>
+            
+            <div style="background: #f0f4ff; border-radius: 16px; padding: 30px; margin: 40px 0; text-align: center;">
+                <h3 style="color: #4facfe; margin-top: 0;">Thank You for Playing! 🎮</h3>
+                <p style="font-size: 1.1em;">
+                    We hope you enjoy Duna's Word! If you like the game, please consider leaving a review on the App Store. It helps us grow and improve! ⭐⭐⭐⭐⭐
+                </p>
+                <p style="margin-top: 20px; font-weight: 600; color: #4facfe;">
+                    Happy word hunting! ✨
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 Duna Apps. All rights reserved.</p>
+            <p><a href="https://wordconnect.duna.app">Home</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
