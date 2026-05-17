@@ -1,0 +1,29 @@
+title: Duna AI Scan
+tagline: On-device AI document scanner & vault
+description: Quét tài liệu AI và két bảo mật. Mọi thứ on-device. Đồng bộ qua iCloud của chính bạn.
+author: Duna Labs
+email: hoainam8x@gmail.com
+url: https://hoainam8x.github.io
+baseurl: /ai-scanner
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
