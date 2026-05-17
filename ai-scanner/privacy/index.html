@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0a84ff">
+  <title>Privacy Policy · Duna AI Scan</title>
+  <meta name="description" content="Privacy Policy for Duna AI Scan — on-device first, zero backend.">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📄</text></svg>">
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-name">Duna AI Scan</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../privacy/" aria-current="page">Privacy</a>
+        <a href="../terms/">Terms</a>
+        <a href="../support/">Support</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap content">
+    <h1>Privacy Policy</h1>
+      <p><strong>Effective date:</strong> 14 May 2026<br>
+      <strong>Last updated:</strong> 14 May 2026</p>
+      <p>This Privacy Policy describes how the <strong>Duna AI Scan</strong> mobile application ("Duna AI Scan", "the App", "we", "us", "our"), published by <strong>Duna Labs</strong>, handles information when you use the App.</p>
+      <p>We built Duna AI Scan to be <strong>on-device first</strong>. The vast majority of your data — including scanned documents, OCR text, and AI extractions — <strong>never leaves your device</strong>.</p>
+      <h2>1. Information we DO NOT collect</h2>
+      <p>We do <strong>not</strong> collect, store, transmit, or have access to any of the following:</p>
+      <ul>
+        <li>Your scanned documents (images or PDFs)</li>
+        <li>Text recognized by on-device OCR</li>
+        <li>Tags, fields, or any metadata extracted by on-device AI (Apple Intelligence / <code>NaturalLanguage</code>)</li>
+        <li>Your photo library content</li>
+        <li>Your email address, phone number, or postal address</li>
+        <li>Your contacts</li>
+        <li>Your precise location</li>
+        <li>Your microphone or audio recordings</li>
+        <li>Your health, fitness, or financial data</li>
+      </ul>
+      <h2>2. Information processed on your device only</h2>
+      <p>The following data is processed <strong>entirely on your device</strong> and never transmitted to Duna Labs or any third party:</p>
+      <table>
+        <thead><tr><th>Data</th><th>How it is used</th></tr></thead>
+        <tbody>
+          <tr><td>Camera frames</td><td>Captured to scan documents. Frames are processed and discarded in real time.</td></tr>
+          <tr><td>Photo library access</td><td>Optional, used only to save exported PDFs or pick existing scans you choose to import.</td></tr>
+          <tr><td>Face ID / Touch ID biometrics</td><td>Used only to authenticate access to your encrypted vault. Biometric template never leaves Apple's Secure Enclave.</td></tr>
+          <tr><td>OCR text</td><td>Extracted on-device using Apple's Vision framework.</td></tr>
+          <tr><td>AI-extracted fields</td><td>Computed on-device using Apple Intelligence Foundation Models (on supported devices) or regex / <code>NaturalLanguage</code>.</td></tr>
+        </tbody>
+      </table>
+      <h2>3. Information you choose to sync</h2>
+      <p>If you sign in with <strong>Sign in with Apple</strong> and have iCloud enabled, the App syncs your documents and metadata via Apple's <strong>iCloud Private Database (CloudKit)</strong> under your own Apple ID.</p>
+      <ul>
+        <li>All synced data is stored in <strong>your own iCloud account</strong> under the container <code>iCloud.com.duna.scanner</code>.</li>
+        <li>Duna Labs <strong>never accesses, reads, or stores</strong> this data. We do not operate a backend server for document storage.</li>
+        <li>You can revoke sync at any time by removing the App in iOS Settings → Apple ID → iCloud, or by signing out.</li>
+      </ul>
+      <h2>4. Information collected by third parties</h2>
+      <h3>4.1 Google AdMob (banner advertisements)</h3>
+      <p>When the App displays banner ads, Google AdMob may collect:</p>
+      <ul>
+        <li>Your <strong>Advertising Identifier (IDFA)</strong>, <strong>only</strong> if you grant permission via the App Tracking Transparency (ATT) prompt.</li>
+        <li><strong>Coarse location</strong> inferred from IP address.</li>
+        <li><strong>Aggregated ad interaction data</strong> (impressions, clicks).</li>
+      </ul>
+      <p>Data handling is governed by Google's Privacy &amp; Terms: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      <p>If you deny the ATT prompt, AdMob will serve <strong>non-personalized ads</strong> and will not track you across apps or websites.</p>
+      <h3>4.2 Sign in with Apple (account)</h3>
+      <p>Apple may share with us only the <strong>opaque user identifier</strong> (<code>Apple userIdentifier</code>) and, if you choose to share it, your name. We store the identifier in your device's Keychain — it <strong>does not leave your device</strong>. We <strong>never</strong> receive your real Apple ID email.</p>
+      <h3>4.3 BizConnex Gateway / your own webhook (optional, user-initiated)</h3>
+      <p>If you enter a webhook URL in <strong>Settings → Gateway</strong> and explicitly tap "Send to Enterprise" on a document, the App sends a deterministic JSON payload to <strong>the URL you provided</strong>. Duna Labs is not the receiver, does not see, log, or proxy the payload. You are responsible for the privacy practices of any webhook destination you configure.</p>
+      <h2>5. Sensitive Documents Vault</h2>
+      <p>When you enable the vault on a document:</p>
+      <ul>
+        <li>The document is encrypted on-device using <strong>AES-256-GCM</strong> (industry-standard authenticated encryption).</li>
+        <li>The encryption key is either derived from a device key stored in <strong>iCloud Keychain</strong> (so the vault unlocks on your other Apple devices) or derived from a <strong>passphrase you choose</strong> using PBKDF2-HMAC-SHA256 with 210,000 iterations.</li>
+        <li>The plain-text version of the document is securely deleted from device storage.</li>
+        <li>Decryption is gated by Face ID, Touch ID, or your passphrase.</li>
+      </ul>
+      <p>Duna Labs has <strong>no access</strong> to encryption keys or passphrases. If you forget your passphrase, encrypted documents cannot be recovered.</p>
+      <h2>6. Children's privacy</h2>
+      <p>The App is rated 4+ and is suitable for general audiences. We do not knowingly collect any personal information from children under the age of 13 (or 16 in the EEA). If you believe a child has provided personal information, please contact us so we can act accordingly.</p>
+      <h2>7. Your rights (GDPR / CCPA)</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li><strong>Access</strong> — request a copy of any data we hold about you. (In most cases, we hold none.)</li>
+        <li><strong>Delete</strong> — delete the App from your device, which removes all locally stored data. Synced iCloud data can be removed via iOS Settings → Apple ID → iCloud → Manage Storage → Duna AI Scan.</li>
+        <li><strong>Object</strong> — opt out of personalized advertising via the ATT prompt or iOS Settings → Privacy &amp; Security → Tracking.</li>
+        <li><strong>Portability</strong> — export documents as PDF from the App at any time.</li>
+      </ul>
+      <p>To exercise any of these rights, email <a href="mailto:hoainam8x@gmail.com">hoainam8x@gmail.com</a>.</p>
+      <h2>8. Security</h2>
+      <ul>
+        <li>All on-device data is stored in the App's sandboxed container, protected by iOS file protection (<code>NSFileProtectionComplete</code>).</li>
+        <li>Vault documents are encrypted with AES-256-GCM as described in §5.</li>
+        <li>All network communication uses TLS 1.2 or higher.</li>
+        <li>Biometric authentication uses Apple's Secure Enclave; raw biometric data never reaches the App.</li>
+      </ul>
+      <h2>9. Changes to this policy</h2>
+      <p>We may update this Privacy Policy from time to time. The "Last updated" date at the top reflects the latest revision. Continued use of the App after a change constitutes acceptance.</p>
+      <h2>10. Contact</h2>
+      <p><strong>Duna Labs</strong><br>
+      Email: <a href="mailto:hoainam8x@gmail.com">hoainam8x@gmail.com</a><br>
+      Website: <a href="https://hoainam8x.github.io/ai-scanner">https://hoainam8x.github.io/ai-scanner</a></p>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="y"></span> Duna Labs · <a href="mailto:hoainam8x@gmail.com">hoainam8x@gmail.com</a></p>
+      <p class="muted">Bundle ID: <code>com.duna.scanner</code></p>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

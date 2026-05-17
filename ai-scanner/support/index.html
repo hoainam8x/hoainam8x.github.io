@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0a84ff">
+  <title>Support · Duna AI Scan</title>
+  <meta name="description" content="Get help with Duna AI Scan — FAQ, troubleshooting, and contact.">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📄</text></svg>">
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-name">Duna AI Scan</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../privacy/">Privacy</a>
+        <a href="../terms/">Terms</a>
+        <a href="../support/" aria-current="page">Support</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap content">
+    <h1>Support · Duna AI Scan</h1>
+      <p>Need help with Duna AI Scan? You're in the right place.</p>
+      <h2>Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:hoainam8x@gmail.com">hoainam8x@gmail.com</a></li>
+        <li><strong>Response time:</strong> within 2 business days</li>
+        <li><strong>Language:</strong> English</li>
+      </ul>
+      <p>When emailing, please include:</p>
+      <ul>
+        <li>Your iPhone model and iOS version</li>
+        <li>App version (Settings → bottom of screen, or shown when you tap the screen-name overlay 10 times)</li>
+        <li>A clear description of the issue and steps to reproduce</li>
+      </ul>
+      <h2>Frequently asked questions</h2>
+      <h3>Scanning</h3>
+      <p><strong>Q: The camera screen is black.</strong><br>
+      A: Make sure you've granted camera permission in iOS Settings → Privacy &amp; Security → Camera → Duna AI Scan. Force-quit and reopen the App.</p>
+      <p><strong>Q: Document edges are not detected.</strong><br>
+      A: Place the document on a contrasting background, ensure even lighting, and hold the camera steady. The auto-detector works best with rectangular paper.</p>
+      <p><strong>Q: How do I rescan a single page in a multi-page document?</strong><br>
+      A: Open the document → Edit → tap the page → Reshoot.</p>
+      <h3>OCR &amp; AI extraction</h3>
+      <p><strong>Q: OCR returns wrong text.</strong><br>
+      A: Improve lighting, get closer to fill the frame, and avoid glare. OCR currently supports English and Vietnamese best.</p>
+      <p><strong>Q: "Review needed" badge shows on extracted fields.</strong><br>
+      A: The on-device AI is unsure about that value. Tap the field to review and edit.</p>
+      <p><strong>Q: My device doesn't support Apple Intelligence — will OCR still work?</strong><br>
+      A: Yes. Apple Intelligence is only used for advanced field extraction (due dates, notes) on iPhone 15 Pro and newer. Basic OCR and tagging work on all iOS 17+ devices.</p>
+      <h3>Vault &amp; security</h3>
+      <p><strong>Q: I forgot my vault passphrase. How do I recover documents?</strong><br>
+      A: Passphrases cannot be recovered by design — Duna Labs never sees them. Documents encrypted with a forgotten passphrase are unrecoverable. We recommend using the <strong>device key mode</strong> (default), which is automatically synced via iCloud Keychain.</p>
+      <p><strong>Q: Face ID prompts every time.</strong><br>
+      A: We use a 60-second grace window. If Face ID prompts every action, your device may have disabled biometric persistence after a recent reboot or passcode change. Restart the device.</p>
+      <p><strong>Q: Vault documents disappeared after re-installing the App.</strong><br>
+      A: If you only used the <strong>device key mode</strong> and did not have iCloud Keychain enabled, the encryption key was lost when you deleted the App. Restore via iCloud backup, or future-proof by enabling iCloud Keychain (Settings → Apple ID → iCloud → Passwords &amp; Keychain) <strong>before</strong> vaulting.</p>
+      <h3>Sync</h3>
+      <p><strong>Q: My documents don't appear on my iPad.</strong><br>
+      A: Both devices must be signed in to the <strong>same Apple ID</strong>, have <strong>iCloud Drive</strong> enabled, and have launched Duna AI Scan at least once.</p>
+      <p><strong>Q: How do I delete all synced data?</strong><br>
+      A: iOS Settings → Apple ID → iCloud → Manage Storage → Duna AI Scan → Delete Data.</p>
+      <h3>Advertising</h3>
+      <p><strong>Q: Why am I seeing ads? I thought the app was private.</strong><br>
+      A: Banner ads (via Google AdMob) help keep Duna AI Scan free. They are clearly labeled and respect your App Tracking Transparency choice. <strong>No scan content is ever sent to AdMob or any advertiser.</strong></p>
+      <p><strong>Q: How do I see fewer / less-personalized ads?</strong><br>
+      A: iOS Settings → Privacy &amp; Security → Tracking → Duna AI Scan → off. You'll still see ads, but they will not be personalized.</p>
+      <h3>Subscriptions</h3>
+      <p><strong>Q: Is the app free?</strong><br>
+      A: Yes. The free tier includes core scanning with banner ads. Optional <strong>Pro</strong> and <strong>Business</strong> subscriptions are available on the App Store for advanced features.</p>
+      <h2>Bug reports &amp; feature requests</h2>
+      <p>Email <a href="mailto:hoainam8x@gmail.com">hoainam8x@gmail.com</a> with subject:</p>
+      <ul>
+        <li><code>[BUG]</code> for bugs</li>
+        <li><code>[FEATURE]</code> for feature requests</li>
+      </ul>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="y"></span> Duna Labs · <a href="mailto:hoainam8x@gmail.com">hoainam8x@gmail.com</a></p>
+      <p class="muted">Bundle ID: <code>com.duna.scanner</code></p>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
